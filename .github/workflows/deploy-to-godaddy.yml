@@ -7,14 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: |
-            cd public
-            mkdir -p ../deploy
-            zip -r ../deploy/deploy.zip .
       - uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.GODADDY_FTP_SERVER }}
           username: '${{ secrets.GODADDY_FTP_USERNAME }}'
           password: '${{ secrets.GODADDY_FTP_PASSWORD }}'
+          local-dir: 'public/'
           server-dir: 'public_html/'
-          local-dir: 'deploy/'

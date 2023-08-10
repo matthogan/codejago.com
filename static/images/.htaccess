@@ -1,0 +1,26 @@
+# force www
+RewriteEngine on
+
+#Options -Indexes
+#DirectoryIndex index.html
+
+RewriteCond %{HTTP_HOST} ^codejago.com [NC] 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#RedirectMatch 404 /\..*$
+
+# block hotlinking
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?codejago.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+
+# limit file upload sz
+LimitRequestBody 1048576
+
+# angular routing
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^(.*) index.html [NC,L]
