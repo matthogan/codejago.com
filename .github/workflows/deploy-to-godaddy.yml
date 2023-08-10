@@ -1,0 +1,16 @@
+name: deploy-to-godaddy
+run-name: Actor @${{ github.actor }} is deploying to GoDaddy
+on:
+  - workflow_dispatch
+jobs:
+  zip-it-up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: zip -r deploy.zip .
+      - uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.GODADDY_FTP_SERVER }}
+          username: '${{ secrets.GODADDY_FTP_USERNAME }}'
+          password: '${{ secrets.GODADDY_FTP_PASSWORD }}'
+          server-dir: 'public_html/'
