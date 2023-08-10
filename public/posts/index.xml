@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Codejago</title>
+        <link>http://codejago.com/posts/</link>
+        <description>Recent content in Posts on Codejago</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <atom:link href="http://codejago.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>One Dumbass Tool to Rule Them All</title>
+            <link>http://codejago.com/posts/1/01/one-dumbass-tool-to-rule-them-all/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>http://codejago.com/posts/1/01/one-dumbass-tool-to-rule-them-all/</guid>
+            <description>Plato: Greetings, Homer, wise in the ways of technology! I, Plato, am a fervent advocate of wielding a diverse set of tools in the pursuit of crafting digital wonders.
+Homer: Hey there, Plato! I&amp;rsquo;ve been using this one tool for as long as I can remember. It&amp;rsquo;s like my trusty ol&amp;rsquo; donut – reliable and delicious.
+Plato: Ah, Homer, your analogy is as delightful as a philosopher&amp;rsquo;s discourse at the agora.</description>
+            <content type="html"><![CDATA[<p><strong>Plato:</strong> Greetings, Homer, wise in the ways of technology! I, Plato, am a fervent advocate of wielding a diverse set of tools in the pursuit of crafting digital wonders.</p>
+<p><strong>Homer:</strong> Hey there, Plato! I&rsquo;ve been using this one tool for as long as I can remember. It&rsquo;s like my trusty ol&rsquo; donut – reliable and delicious.</p>
+
+    <img src="/images/hammer-nail.png"  alt="Everything looks like a hammer to a nail"  class="left"  style="border-radius: 8px;"  />
+
+
+<p><strong>Plato:</strong> Ah, Homer, your analogy is as delightful as a philosopher&rsquo;s discourse at the agora. But consider this: just as a philosopher seeks knowledge from various sources, a developer should draw from an array of tools to tackle the intricacies of the digital realm.</p>
+<p><strong>Homer:</strong> Listen, buddy, I get what you&rsquo;re saying, but let me put it this way: when I have my trusty hammer, everything starts looking like a nail. I know my tool inside-out, and it does the job every time, without any fancy acrobatics.</p>
+<p><strong>Plato:</strong> A valid point, Homer, akin to Socrates&rsquo; commitment to his method of dialectics. Yet, imagine constructing a grand digital edifice with just a single tool. It&rsquo;s like building the Parthenon with only a chisel – effective for some parts, but inadequate for others.</p>
+<p><strong>Homer:</strong> You know, Plato, sometimes I think too many tools are like having too many toppings on a pizza – it just gets confusing. With my one tool, I don&rsquo;t need to worry about compatibility or juggling a bunch of different things.</p>
+<p><strong>Plato:</strong> An intriguing perspective, Homer, reminiscent of Diogenes living a minimalist life in his barrel. However, consider a scenario where your trusty tool can&rsquo;t solve a particular challenge. A diverse toolkit would be like a treasure chest of solutions, each key unlocking a unique door.</p>
+<p><strong>Plato picks up an example of using multiple tools</strong></p>
+<p><strong>Plato:</strong> Imagine, Homer, you&rsquo;re building a web application. Your trusty hammer, your single tool, excels at certain frontend tasks. But what if you encounter a complex backend integration challenge? Here, a backend framework could be your chisel, chipping away the intricacies of data handling.</p>
+<p><strong>Homer counters with a Homer-esque example</strong></p>
+<p><strong>Homer:</strong> Okay, okay, Plato. Let me counter your example. You&rsquo;re a developer working on a mobile app, right? Well, I say you stick to your fancy tools and frameworks, but when it comes to designing that perfect user interface, you can&rsquo;t go wrong with my tried-and-true donut analogy. A single tool, much like a single flavor, can create a masterpiece that everyone craves.</p>
+<p><strong>Plato:</strong> Ah, Homer, you do have a knack for making your point in the most unconventional way. But remember, just as a poet employs a rich vocabulary to convey depth and emotion, a developer&rsquo;s toolkit paints a canvas of possibilities. Each tool a brushstroke, together creating a digital symphony.</p>
+<p><strong>Plato contemplates on tool simplicity</strong></p>
+<p><strong>Plato:</strong> Moreover, dear Homer, I must muse upon the nature of tools themselves. Much like the harmony of a well-orchestrated melody, a toolkit&rsquo;s effectiveness lies in its simplicity and single-mindedness. It is not a question of having a tool that does everything, but rather a collection of tools, each designed with a singular purpose, weaving together in harmony to accomplish grander feats.</p>
+<p><strong>Homer shares his simple wisdom</strong></p>
+<p><strong>Homer:</strong> You know, Plato, simplicity is like the beauty of a perfectly glazed donut. It&rsquo;s easy to understand, and it hits the spot every time. I might not have a ton of tools, but the one I&rsquo;ve got is as simple and satisfying as a classic D&rsquo;oh!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

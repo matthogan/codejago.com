@@ -1,7 +1,7 @@
 ---
 title: "One Dumbass Tool to Rule Them All"
 linktitle: "One Dumbass Tool to Rule Them All"
-draft: true
+draft: false
 toc: false
 type:
 - post

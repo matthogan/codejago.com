@@ -16,6 +16,8 @@
                 href="http://codejago.com/categories/"
                 />
   </url><url>
+    <loc>http://codejago.com/tags/chatgpt-made-this/</loc>
+  </url><url>
     <loc>http://codejago.com/</loc>
     <xhtml:link
                 rel="alternate"
@@ -27,6 +29,16 @@
                 hreflang="en"
                 href="http://codejago.com/"
                 />
+  </url><url>
+    <loc>http://codejago.com/tags/dall-e-made-this/</loc>
+  </url><url>
+    <loc>http://codejago.com/tags/development/</loc>
+  </url><url>
+    <loc>http://codejago.com/posts/1/01/one-dumbass-tool-to-rule-them-all/</loc>
+  </url><url>
+    <loc>http://codejago.com/posts/</loc>
+  </url><url>
+    <loc>http://codejago.com/series/rambling/</loc>
   </url><url>
     <loc>http://codejago.com/series/</loc>
     <xhtml:link
@@ -40,6 +52,8 @@
                 href="http://codejago.com/series/"
                 />
   </url><url>
+    <loc>http://codejago.com/categories/software-engineering/</loc>
+  </url><url>
     <loc>http://codejago.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -51,5 +65,7 @@
                 hreflang="en"
                 href="http://codejago.com/tags/"
                 />
+  </url><url>
+    <loc>http://codejago.com/tags/tools/</loc>
   </url>
 </urlset>
