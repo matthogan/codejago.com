@@ -7,7 +7,7 @@
 
 ## What is this?
 
-Website for [Codejago](codejago.com).
+Website for [Codejago](https://codejago.com).
 
 ## Deploy with Github Workflow
 
