@@ -1,7 +1,7 @@
 ---
 title: "Jumping through Hoops - Installing the Java SDK"
 linktitle: "Jumping through Hoops - Installing the Java SDK"
-draft: true
+draft: false
 toc: false
 type:
 - post

@@ -9,6 +9,28 @@
         <atom:link href="http://codejago.com/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>Jumping through Hoops - Installing the Java SDK</title>
+            <link>http://codejago.com/posts/1/01/jumping-through-hoops-installing-the-java-sdk/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>http://codejago.com/posts/1/01/jumping-through-hoops-installing-the-java-sdk/</guid>
+            <description>Installing the Java SDK &amp;hellip; yet again &amp;hellip; for the eleventy billionth time Always looking out for that quick and easy way to install the Java SDK. This time, I&amp;rsquo;m going to try sdkman which is a tool for managing multiple versions of the Java SDK. It&amp;rsquo;s a little more than that, but that&amp;rsquo;s what I&amp;rsquo;m going to use it for.
+I&amp;rsquo;m using Debian 10, so I&amp;rsquo;ll follow the instructions for Linux.</description>
+            <content type="html"><![CDATA[<h2 id="installing-the-java-sdk--yet-again--for-the-eleventy-billionth-time">Installing the Java SDK &hellip; yet again &hellip; for the eleventy billionth time</h2>
+<p>Always looking out for that quick and easy way to install the Java SDK. This time, I&rsquo;m going to try <a href="https://sdkman.io/">sdkman</a> which is a
+tool for managing multiple versions of the Java SDK. It&rsquo;s a little more than that, but that&rsquo;s what I&rsquo;m going to use it for.</p>
+<p>I&rsquo;m using Debian 10, so I&rsquo;ll follow the instructions for <a href="https://sdkman.io/install">Linux</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ curl -s <span style="color:#e6db74">&#34;https://get.sdkman.io&#34;</span> | bash
+</span></span></code></pre></div><p>I still had to open <a href="https://jdk.java.net/20/">https://jdk.java.net/20/</a> to find the latest version number. I&rsquo;m sure there&rsquo;s a way to do that programmatically.</p>
+<p>Then, open a new terminal window and run the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sdk install java 20.0.2-open
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>Setting java 20.0.2-open as default.
+</span></span></code></pre></div><p>One thing it did do was set the package to be the default&hellip; without asking&hellip; Anyway, turns out <code>sdk default java 20.0.2-open</code> will set it to the stated version.</p>
+]]></content>
+        </item>
+        
+        <item>
             <title>One Dumbass Tool to Rule Them All</title>
             <link>http://codejago.com/posts/1/01/one-dumbass-tool-to-rule-them-all/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
