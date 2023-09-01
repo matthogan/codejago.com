@@ -55,12 +55,12 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   # 
   description = "Codejago create bespoke software and components"
-  keywords = "programming, code, software developer, development, blog, guides, tutorials, apps"
+  keywords = "programming, code, software development, technical design, blog, guides, tutorials, apps"
   images = [""]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "progammer, developer, engineer, sociologist, historian, computer scientist, is there nothing he can't do?"
+  homeSubtitle = "custom software, software development, technical design, docs, apps"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -173,7 +173,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/matthogan"
+    url  = "https://github.com/codejago"
 
   [[params.social]]
     name = "linkedin"
@@ -183,9 +183,9 @@ disableHugoGeneratorInject = false
 #     name = "stackoverflow"
 #     url  = "https://stackoverflow.com/users/3611517/mattocaramba"
 
-  [[params.social]]
-    name = "mastodon"
-    url  = "https://mastodon.sdf.org/@matto"
+  # [[params.social]]
+  #   name = "mastodon"
+  #   url  = "https://mastodon.sdf.org/@matto"
 
 [languages]
   [languages.en]
